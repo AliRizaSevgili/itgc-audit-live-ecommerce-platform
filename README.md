@@ -2,7 +2,7 @@
 
 ##  Executive Overview
 
-This project presents an end-to-end IT General Controls (ITGC) assessment performed on a live e-commerce platform  [Heart Pottery Studios](https://www.heartpotterystudios.com/) used for customer bookings and payment processing.
+This project presents an end-to-end IT General Controls (ITGC) assessment performed on a live e-commerce platform  used for customer bookings and payment processing.
 
 The objective of this audit was to evaluate the effectiveness of key control domains including access management, data protection, change management, logging and monitoring, and third-party risk.
 

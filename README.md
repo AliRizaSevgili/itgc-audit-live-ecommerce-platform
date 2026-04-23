@@ -1,4 +1,5 @@
 # ITGC Audit – Live E-commerce Platform (Case Study)
+This project is part of an end-to-end IT Risk and SOC 2 audit simulation, focusing on control testing, audit evidence, and real-world ITGC assessment practices.
 
 ##  Executive Overview
 
@@ -63,6 +64,8 @@ The audit was conducted following a structured ITGC assessment approach:
 7. Findings Documentation  
 8. Remediation Planning  
 
+Control testing was performed using audit methodology, including Test of Design (ToD) and Test of Operating Effectiveness (ToOE).
+Sampling techniques (3–5 samples per control) were applied where applicable, and all results were validated through evidence evaluation.
 All findings were validated through direct system observation and supporting evidence.
 
 ---
@@ -107,6 +110,7 @@ System-level logging exists; however, no logging is implemented for user activit
 ### 8. Lack of Third-Party Risk Management
 No evidence of vendor risk assessment, external audit, or compliance certification was identified, indicating a lack of formal third-party governance.
 
+The following findings are based on control testing results, including evaluation of design and operating effectiveness.
 ---
 
 ##  Control Areas Evaluated
@@ -151,13 +155,24 @@ The following audit deliverables were produced:
 - ITGC Control Matrix  
 - User Access Review (UAR)  
 - Segregation of Duties (SoD) Analysis  
-- Testing Workpapers  
+- Testing Workpapers (including ToD, ToOE, sampling, and evidence evaluation)
 - Findings Log  
 - Remediation Tracker  
 - Evidence Repository  
 
 ---
+## Control Testing Approach
+Controls were tested for both design and operating effectiveness to assess their ability to mitigate identified risks.
 
+Test of Design (ToD) evaluated whether controls were properly designed and aligned with control objectives.
+
+Test of Operating Effectiveness (ToOE) evaluated whether controls were consistently implemented and functioning as intended.
+
+Where controls were not implemented, operating effectiveness testing was not applicable.
+
+Testing results were documented in structured workpapers and supported by evidence.
+
+---
 ##  Evidence-Based Testing
 
 All control deficiencies were validated through direct evidence, including:
@@ -171,6 +186,13 @@ Evidence is organized in the `/07_Evidence` directory and mapped to each test ca
 
 ---
 
+## Audit Positioning
+
+This project simulates a real-world ITGC audit engagement, demonstrating control design, testing, and evidence-based validation aligned with industry audit practices.
+
+It reflects practical experience in IT audit, risk assessment, and control evaluation within a live system environment.
+
+---
 ##  Disclaimer
 
 This project is a personal audit case study conducted for educational and portfolio purposes.
